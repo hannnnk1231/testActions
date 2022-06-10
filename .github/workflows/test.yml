@@ -15,7 +15,7 @@ jobs:
       - run: echo "${{ inputs.username }}"
         shell: bash
   example_job2:
-    name: Pass input2
+    name: Pass input 222
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ inputs.username }}" 2
